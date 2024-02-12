@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "moscode-telegram-bot"
+version = "0.1.0"
+description = ""
+authors = ["smbrine <smbrine@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.0.post1"
+pydantic = "^2.6.1"
+pydantic-settings = "^2.1.0"
+pylint = "^3.0.3"
+flake8 = "^7.0.0"
+python-telegram-bot = "^20.8"
+python-dotenv = "^1.0.1"
+faust-streaming = "^0.10.22"
+black = "^24.1.1"
+prometheus-fastapi-instrumentator = "^6.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
